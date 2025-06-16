@@ -1,12 +1,20 @@
-
+import AppName from "./components/AppName";
+import AddToDo from "./components/AddToDo";
+import ListFirst from "./components/ListFirst";
+import List2 from "./components/List2";
+import "./App.css";
 function App() {
-  
-
-  return <div>place holder
-    <h1>hello world </h1>
-    <h2>my name is abhinay </h2>
-  </div>
-   
+  return (
+    <center className="todo-container">
+      <AppName />
+      <div className="list-container">
+        <AddToDo />
+        <ListFirst />
+        <List2 />
+      </div>
+      .
+    </center>
+  );
 }
 
-export default App
+export default App;
