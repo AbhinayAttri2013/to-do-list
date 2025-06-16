@@ -5,7 +5,7 @@ function ListFirst(){
           <div class="col-6">homework</div>
           <div class="col-4">13/09/25</div>
           <div class="col-2">
-            <button type="button" class="btn btn-danger">
+            <button type="button" class="btn btn-danger new-button">
               delete
             </button>
           </div>
